@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xml>
+    <banco>
+        <nome>itau</nome>
+        <regra>
+            <![CDATA[
+                Compra aprovada no seu (?<banco>.*) final (?<numero>.*) - (?<estabelecimento>.*) valor (?<preco>.*) em (?<data>.*), as (?<hora>.*)
+            ]]>
+        </regra>
+    </banco>
+</xml>
