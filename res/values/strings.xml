@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Monetize</string>
-    <string name="welcome_message">Hello! It works!</string>
+    <string name="welcome_message">Bem vindo ao Monetize App!</string>
+    <string name="btn_category">Categorias</string>
+    <string name="btn_confirm_purchase">Confirmar Compra</string>
+    <string name="btn_list_purchase">Compras Efetuadas</string>
+    <string name="tx_bank">Banco:</string>
+    <string name="tx_card_number">Cartão:</string>
+    <string name="tx_establishment">Estabelecimento:</string>
+    <string name="tx_price">Preço:</string>
+    <string name="tx_date">Data:</string>
+    <string name="tx_hour">Hora:</string>
+    <string name="tx_category">Categoria:</string>
+    <string name="label_dt_purchase">Data Compra:</string>
+    <string name="label_price">Preço:</string>
+    <string name="label_card">Cartão:</string>
 </resources>

@@ -2,11 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
-    <TextView
+              android:layout_height="fill_parent">
+
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:text="@string/welcome_message"/>
+
+    <Button android:layout_height="wrap_content"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/welcome_message"
-            />
+            android:text="@string/btn_category"
+            android:id="@+id/btn_category"/>
+
+    <Button android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="@string/btn_list_purchase"
+            android:id="@+id/btn_list_purchase"/>
 </LinearLayout>
